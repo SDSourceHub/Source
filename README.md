@@ -109,7 +109,7 @@ Fornecer ferramentas de qualidade para a comunidade de Roblox, sempre com foco e
 
 ### Loadstring oficial
 
-A maneira mais simples de carregar o SourceHub:
+A maneira mais simples de carregar o SourceHub Com o loadingstring:
 
 ```lua
-loadstring(game:HttpGet("https://sourcehub.xyz/v4.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SDSourceHub/Source/refs/heads/main/SourceHub.lua", true))()
